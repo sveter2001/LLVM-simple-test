@@ -1,0 +1,18 @@
+function_made_by_Vanya main(): float {
+	variable_made_by_Vanya a : float; 
+	variable_made_by_Vanya i : int; 
+	i = 0;
+	a = 5.0;
+	if (a>6){
+		a=0;
+	}
+	else
+	{
+		a=3.14;
+	}
+	for ( i =0);i<3;i=i+1){
+		a=a+1;
+	}
+
+  return a;
+}
